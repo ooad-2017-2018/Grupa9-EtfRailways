@@ -30,10 +30,12 @@ Zaposlenicima i korisnicima omogućavamo uvid u sve važne informacije vezane za
 ## Funkcionalnosti
 * Mogućnost prijave na sistem sa različitim privilegijama (zaposlenik, korisnik aplikacije, gost, supervizor)
 * Mogućnost registrovanja novog korisnika
+* Kreiranje arhive registrovanog korisnika
 * Mogućnost pregleda svih vožnji koje su ponuđene sa polascima i očekivanim dolascima
 * Mogućnost dodavanja novih zaposlenika
 * Mogućnost brisanja zaposlenika u slučaju otkaza 
 * Mogućnost registrovanja novih vožnji
+* Mogućnost brisanja vožnje
 * Mogućnost pregleda svih destinacija, do kojih nudimo prevoz, radi boljeg upoznavanja korisnika sa destinacijom koju izaberu
 * Kupovina karte
 * Mogućnost čitanja knjige žalbi i pohvala svih korisnika, kao i upisivanje utisaka korisnika
