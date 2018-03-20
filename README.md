@@ -1,4 +1,7 @@
 # Grupa9-EtfRailways
+## Članovi tima:
+1. Amina Salčin
+2. Lejla Ramić
 ## Opis teme
 EtfRailways je aplikacija čiji  primarni zadatak je upravljati, olakšati i rastetetiti rad same željezničke stanice i njenih uposlenika. Cilj naše aplikacije je ponuditi korisniku sve potrebne informacije za samostalnu organizaciju prevoza do željene destinacije, ukoliko se korisnik odluči da kao prevozno sredstvo koristi voz. Gužve i redove čekanja na kupovinu karata možete izbjeći koristeći našu aplikaciju, koja je praktična i jednostavna za korištenje. Aplikacija nije namijenjena samo za osobe koje žele koristiti uslge EtfRailways-a, već i za osoblje naše kompanije u cilju lakše organizacije i uvida u sve aktivnosti unutar EtfRailways-a. EtfRailways nudi velike olakšice svim korisnicima, od onih koji kupuju kartu, do zaposlenika, te i same uprave koja želi modernizirati svoje poslovanje i učiniti svoje usluge jednostavnijim i boljim. Detaljan opis svih funkcionalnosti aplikacije slijedi u nastavku. 
 ## Procesi
