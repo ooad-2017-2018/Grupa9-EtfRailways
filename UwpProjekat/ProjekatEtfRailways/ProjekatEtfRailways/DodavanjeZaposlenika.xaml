@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="ProjekatEtfRailways.DodavanjeZaposlenika"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatEtfRailways"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RelativePanel HorizontalAlignment="Left" Margin="84,47,0,0" VerticalAlignment="Top" Height="723" Width="571" Background="Azure">
+            <TextBox HorizontalAlignment="Center" Text="" Width="234" Margin="55,84,-218.6,-110.2" FontSize="20" PlaceholderText="Ime" FontStyle="Italic" TextAlignment="Center" TextChanged="TextBox_TextChanged" IsReadOnly="False"/>
+            <RichEditBox HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="455" Margin="35,339,-424.4,-607" RenderTransformOrigin="0.558,0.956"/>
+            <Button Content="Registruj" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="137" Margin="352,651,-423.4,-667.2" FontSize="20" Click="Button_Click" FontWeight="Bold" FontFamily="Segoe UI"/>
+            <TextBox HorizontalAlignment="Left" Height="43" Text="" VerticalAlignment="Top" Width="303" Margin="36,293,-268.6,-304" FontSize="20" PlaceholderText="Opis radnog mjesta" FontStyle="Italic" IsReadOnly="True"/>
+            <TextBox HorizontalAlignment="Left" Height="39" Text="" VerticalAlignment="Top" Width="236" Margin="54,157,-219.6,-164" PlaceholderText="Prezime" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
+            <DatePicker HorizontalAlignment="Left" Height="32.8" VerticalAlignment="Top" Width="296" Margin="244,230,-244,-230.2"/>
+            <TextBox HorizontalAlignment="Left" Height="41" Text="" VerticalAlignment="Top" Width="173" Margin="55,224,-157.6,-233" IsReadOnly="True" PlaceholderText="Datum rodjenja" FontSize="20" FontStyle="Italic"/>
+
+        </RelativePanel>
+
+    </Grid>
+</Page>
