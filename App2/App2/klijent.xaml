@@ -1,0 +1,101 @@
+﻿<Page
+    x:Class="App2.klijent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LoginRegistracija"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local1="using:App2.ViewModel"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <local1:NaslovnaViewModel/>
+    </Page.DataContext>
+
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/pozadina.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="1"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="1"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="2"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="2"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="3"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="3"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="4"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="4"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="5"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="5"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="6"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="6"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="7"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="7"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="8"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="8"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="9"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="9"/>
+        <Border Grid.Column="0" Background="White" Opacity="0.75" Grid.Row="10"/>
+        <Border Grid.Column="1" Background="White" Opacity="0.75" Grid.Row="10"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="1"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="1"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="2"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="2"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="3"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="3"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="4"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="4"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="7"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="7"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="8"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="8"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="9"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="9"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="10"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="6"/>
+        <Border Grid.Column="3" Background="White" Opacity="0.75" Grid.Row="5"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="6"/>
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="5"/>
+
+        <Border Grid.Column="4" Background="White" Opacity="0.75" Grid.Row="10"/>
+        <TextBlock Grid.Column="0" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" Height="50"  Text="Ime:" FontSize="20"/>
+        <TextBlock Grid.Column="0" Grid.Row="5" HorizontalAlignment="Right" VerticalAlignment="Center" Height="50"  Text="Prezime:" FontSize="20"/>
+        <TextBlock Grid.Column="0" Grid.Row="6" HorizontalAlignment="Right" VerticalAlignment="Center" Height="50"  Text="Adresa:" FontSize="20"/>
+        <TextBlock Grid.Column="0" Grid.Row="7" HorizontalAlignment="Right" VerticalAlignment="Center" Height="50"  Text="E-mail:" FontSize="20"/>
+        <TextBlock Grid.Column="0" Grid.Row="8" HorizontalAlignment="Right" VerticalAlignment="Center" Height="50"  Text="Broj telefona:" FontSize="20"/>
+        <TextBox  Name="Ime" Grid.Column="1" Grid.Row="4" HorizontalAlignment="center" VerticalAlignment="Center" Height="50" Width="300" FontSize="20" IsReadOnly="True"/>
+        <TextBox  Name="Prezime" Grid.Column="1" Grid.Row="5" HorizontalAlignment="center" VerticalAlignment="Center" Height="50" Width="300" FontSize="20" IsReadOnly="True"/>
+        <TextBox  Name="Adresa" Grid.Column="1" Grid.Row="6" HorizontalAlignment="center" VerticalAlignment="Center" Height="50" Width="300" FontSize="20" IsReadOnly="True"/>
+        <TextBox  Name="Email" Grid.Column="1" Grid.Row="7" HorizontalAlignment="center" VerticalAlignment="Center" Height="50" Width="300" FontSize="20" IsReadOnly="True"/>
+        <TextBox  Name="BrTel" Grid.Column="1" Grid.Row="8" HorizontalAlignment="center" VerticalAlignment="Center" Height="50" Width="300" FontSize="20" IsReadOnly="True"/>
+
+        <Button Grid.Row="9" Command="{Binding Login, Mode=TwoWay}" Grid.RowSpan="2" Grid.Column="1" Content="Odjavite se" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="20" Click="Button_Click"/>
+        <TextBlock  Name="DobroDosli" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="300" FontSize="36" FontFamily="Arial Black"/>
+        <ListView Name="ListaPutovanja"  Grid.RowSpan="8" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderThickness="1" BorderBrush="Black"/>
+        <Button Grid.Row="10" Click="Button_Click" Command="{Binding Kl, Mode=TwoWay}"  Grid.Column="4" Content="Idi na stranicu" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="20"/>
+
+
+
+
+    </Grid>
+</Page>
